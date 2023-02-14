@@ -78,3 +78,35 @@ body {
 
 
 }
+
+/* Footer-Map */
+
+#map-wrapper {
+    height: 300px;
+}
+
+#map {
+    width: 75%;
+    height: 100%;
+    left: 0;
+
+}
+
+/* Footer - Times */
+
+th {
+    text-align: right;
+}
+
+th, td {
+    border-bottom: 1px solid black; 
+    margin-top: 2em;
+}
+
+#times-box-right {
+    
+    width: 25%;
+    float: right;
+    text-align: center;
+
+}
