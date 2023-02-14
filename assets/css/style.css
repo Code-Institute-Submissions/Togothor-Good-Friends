@@ -10,6 +10,26 @@ body {
     font-weight:400;
 }
 
+/*headings and logo*/
+
+#logo {
+    float: left;
+    font-size: 250%;
+    margin-left: 3%;
+    margin-top: 3%;
+
+}
+
+/* navigation links in menu */
+
 #menu {
-    
+    font-size: 130%;
+
+}
+
+#menu li {
+    float: right;
+    margin-right: 3%;
+    margin-top: 3%;
+    list-style-type: none;
 }
