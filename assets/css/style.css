@@ -107,6 +107,12 @@ th, td {
     
 }
 
+#times-h2 {
+    float: left;
+    padding-bottom: 5px;
+   
+}
+
 #times-box-right {
     
     width: 20%;
