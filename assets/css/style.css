@@ -85,8 +85,8 @@ body {
 /* Footer-Map */
 
 #map-wrapper {
-    height: 300px;
-    width: auto;
+    height: 100%;
+    width: 75%;
 }
 
 #map {
@@ -114,9 +114,10 @@ th, td {
 }
 
 #times-box-right {
-    
-    width: 20%;
+    padding: 3% 3%;
+    width: 18%;
     float: right;
-    text-align: center;
+    text-align: left;
+    position: relative;
 
 }
