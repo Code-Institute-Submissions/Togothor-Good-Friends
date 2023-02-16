@@ -37,16 +37,32 @@ body {
 
 /* hero outer section, containing image & logo */
 
+
+
 #hero-outer {
     height: 500px ;
     width: 100%;
     background-color: aqua;
     position: relative;
     border-top: 1px solid black;
-    overflow: hidden;
+    overflow: scroll;
     z-index: 1;
 
+
 }
+
+/* Hero video */
+
+video {
+    max-width: 400px;
+    height: auto;
+    object-fit: cover;
+    position: absolute;
+    top: 3%;
+    left: 12%;
+    
+}
+
 
 /* Black slate & welcome text */
 
@@ -119,5 +135,6 @@ th, td {
     float: right;
     text-align: left;
     position: relative;
+    min-width: 180px;
 
 }

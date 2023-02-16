@@ -1,0 +1,83 @@
+[33mcommit 05e439fcd0483a09fbb38e554cd525a60cb6c3ba[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Togothor <togothor@outlook.com>
+Date:   Thu Feb 16 13:46:55 2023 +0000
+
+    add styling to times section and map section
+
+[33mcommit 1ca80128022b3cb535c914f4a1493749bbac2b36[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Togothor <togothor@outlook.com>
+Date:   Thu Feb 16 12:19:18 2023 +0000
+
+    add styling times-h2
+
+[33mcommit b5e164c1e5bb54dedeab4a3e3c9b4b8e1717b884[m
+Author: Togothor <togothor@outlook.com>
+Date:   Thu Feb 16 12:01:18 2023 +0000
+
+    add new src for map and edit width times box
+
+[33mcommit 042b60660ae10a9e9f4048201c7fd8c47f6455a5[m
+Author: Togothor <togothor@outlook.com>
+Date:   Wed Feb 15 12:39:55 2023 +0000
+
+    add import google font
+
+[33mcommit ee6493f3d1aa7e8961bb94fcc310a5d33d8a7132[m
+Author: Togothor <togothor@outlook.com>
+Date:   Wed Feb 15 10:31:24 2023 +0000
+
+    added more broilertexto index abobout and inventory
+
+[33mcommit f75055585c0372022cd70ca0acb8728e4490fe90[m
+Author: Togothor <togothor@outlook.com>
+Date:   Tue Feb 14 20:53:11 2023 +0000
+
+    add broilertext to connect page and add title to iframe index page
+
+[33mcommit 808341a23efa9b4e34cf296d1ba9920352bcf74d[m
+Author: Togothor <togothor@outlook.com>
+Date:   Tue Feb 14 20:37:07 2023 +0000
+
+    add header to all pages add map and add times to bottom index page
+
+[33mcommit 255feac04d3b20c7f95e94fb9bd3e10ccf21e4ed[m
+Author: Togothor <togothor@outlook.com>
+Date:   Tue Feb 14 15:39:15 2023 +0000
+
+    add basic styling to black-slate and welcome text
+
+[33mcommit 2a10d9d161b87e106207455f9e0c941e219d38d8[m
+Author: Togothor <togothor@outlook.com>
+Date:   Tue Feb 14 11:56:39 2023 +0000
+
+    add style to hero outer and margin to menu
+
+[33mcommit dcc99fa18eb13b048219a0908f08991fb70bb0be[m
+Author: Togothor <togothor@outlook.com>
+Date:   Tue Feb 14 11:36:07 2023 +0000
+
+    add id:s to hero-outer section and style to logo and menu
+
+[33mcommit ed465ea41ca71abceb83bb5d3955948405dd7377[m
+Author: Togothor <togothor@outlook.com>
+Date:   Tue Feb 14 11:05:29 2023 +0000
+
+    add menu pages with links  and basic styling to body
+
+[33mcommit 016524a7d605a756e26f550d4b0f707791cb0c8a[m
+Author: Togothor <togothor@outlook.com>
+Date:   Mon Feb 13 11:43:18 2023 +0000
+
+    Add core structure home page
+
+[33mcommit 5b7880726bdb7bda61740533a8183e1897c95440[m
+Author: Togothor <togothor@outlook.com>
+Date:   Mon Feb 13 11:18:52 2023 +0000
+
+    initial commit add metadata to head and connect css file
+
+[33mcommit f7a92b7cd6e5aa60327a3e97df0fb61d2e2f39d9[m
+Author: Togothor <121944070+Togothor@users.noreply.github.com>
+Date:   Sun Feb 12 21:05:03 2023 +0100
+
+    Initial commit
