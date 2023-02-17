@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -39,6 +39,16 @@ body {
     background-size: cover;
     height: auto;
     
+}
+
+#background-image3 {
+    background-image: url('images/pexels-sudip-paul-2738167.jpg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+
 }
 
 
@@ -249,14 +259,28 @@ button {
 /* About text */
 
 .text-center {
-    text-align: center;
+    text-align: justify;
     }
 
 #about-text {
-    max-width: 70%;
+    max-width: 38%;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: 5%;
+    background-color: #559e6785;
     }
+
+div p {
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        font-family: 'Roboto', sans-serif;
+        }
+
+p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+        
 @media screen and (max-width: 840px;) {
 
     
