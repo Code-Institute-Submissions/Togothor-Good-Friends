@@ -3,7 +3,7 @@
 * {
     padding: 0;
     margin: 0;
-    border: none;
+    box-sizing: border-box;
 }
 
 header {
@@ -182,3 +182,10 @@ th, td {
     color: white;
 
 }
+
+@media screen and (max-width: 840px;) {
+
+    
+}
+
+    
