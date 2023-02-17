@@ -4,11 +4,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    color: turquoise;
 }
 
 header {
     height: 150px;
     width: 100%;
+    font-weight: bold;
 }
 
 body {
@@ -16,6 +18,27 @@ body {
     max-width: 1800px;
     margin-left: auto;
     margin-right: auto;
+    
+}
+
+#background-image {
+    background-image: url('images/background-body.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.8;
+    object-fit: cover;
+    
+}
+#background-image2 {
+    background-image: url('images/pexels-zak-bentley-2906030.jpg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    opacity: 0.8;
+    max-width: 100%;
+    background-position-y: -86rem;
+    background-size: cover;
+    height: auto;
+    
 }
 
 
@@ -49,7 +72,7 @@ body {
 #hero-outer {
     height: 740px ;
     width: 100%;
-    background-color: aqua;
+    background-color: transparent;
     position: relative;
     border-top: 1px solid black;
     overflow: hidden;
@@ -115,14 +138,17 @@ video {
     z-index: 2;
     
     height: auto;   
-    width: 250px; 
     background-color: black;
 
     position: absolute;
 
     top: 3%;
-    right: 50px;
+    
     bottom: 3%;
+    border-radius: 10%;
+    width: 55%;
+    margin-left: 10%;
+    max-width: 850px;
 
 }
 
@@ -192,7 +218,6 @@ form {
     max-width: 500px;
     margin-left: auto;
     margin-right: auto;
-    border: 2px solid black;
     margin-top: 20px;
     padding: 10px 20px;
 }
@@ -215,13 +240,23 @@ button {
     width: 130px;
     height: 40px;
     background-color: black;
-    color: white;
-    font: bold 1rem;
+    font: white bold 1rem;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
 }
 
+/* About text */
+
+.text-center {
+    text-align: center;
+    }
+
+#about-text {
+    max-width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    }
 @media screen and (max-width: 840px;) {
 
     
