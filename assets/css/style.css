@@ -93,6 +93,14 @@ video {
    
 }
 
+/* Inside video */
+
+#video-inside {
+    height: 740px;
+    width: auto;
+    overflow: hidden;
+}
+
 
 /* Black slate & welcome text */
 
@@ -142,7 +150,7 @@ video {
 
 }
 
-/* Footer - Times */
+/*  Times */
 
 th {
     text-align: right;
