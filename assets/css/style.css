@@ -189,13 +189,15 @@ th, td {
 
 form {
     width: 90%;
-    max-width: 600px;
-    height: 400px;
+    max-width: 500px;
     margin-left: auto;
     margin-right: auto;
+    border: 2px solid black;
+    margin-top: 20px;
+    padding: 10px 20px;
 }
 
-input {
+input, textarea {
     width: 100%;
 
 }
@@ -203,6 +205,21 @@ label {
     width: 100%;
     float: left;
     margin: 5px auto;
+}
+
+label, input, button {
+    display: block;
+}
+
+button {
+    width: 130px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font: bold 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
 }
 
 @media screen and (max-width: 840px;) {
