@@ -273,6 +273,8 @@ button {
     margin-right: auto;
     margin-left: 5%;
     background-color: #559e6785;
+    padding: 18px;
+    border-radius: 3%;
     }
 
 div p {
@@ -283,7 +285,7 @@ div p {
         }
 
 p {
-    margin-top: 20px;
+    margin-top: 1px;
     margin-bottom: 20px;
 }
         
