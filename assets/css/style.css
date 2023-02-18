@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color: turquoise;
+   
 }
 
 header {
@@ -12,6 +12,7 @@ header {
     width: 100%;
     font-weight: bold;
     max-width: 1500px;
+    
 }
 
 body {
@@ -19,7 +20,7 @@ body {
     max-width: 1800px;
     margin-left: auto;
     margin-right: auto;
-    
+    ma
 }
 
 #background-image {
@@ -63,13 +64,19 @@ body {
     background-color: #0d241385;
     outline: 5px solid #0d241385;
     border-radius: 34%;
+    color: turquoise;
 
 }
 
 /* navigation links in menu */
 
+.active {
+    background-color: aliceblue;
+}
+
 #menu {
     font-size: 130%;
+    
 
 }
 
@@ -80,6 +87,10 @@ body {
     background-color: #0d241385;
     outline: 5px solid #0d241385;
     border-radius: 34%;
+}
+
+li a {
+    color: turquoise;
 }
 
 /* hero outer section, containing image & logo */
@@ -230,18 +241,24 @@ th, td {
 
 /* Form */
 
-form {
+#form {
     width: 90%;
-    height: 382px;
+    height: fit-content;
     max-width: 500px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #60534fa3;
+    
     border-radius: 6%;
-    font-family: roboto;
+    font-family: black roboto, sans-serif;
+    background-color: #ffffffa3;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    
 }
+
+
 
 input, textarea {
     width: 100%;
@@ -257,14 +274,19 @@ label, input, button {
     display: block;
 }
 
-button {
+#submit-button {
     width: 130px;
     height: 40px;
-    background-color: black;
-    font: white bold 1rem;
+    background-color: turquoise;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
+    font-size: 110%;
+    font-weight: bolder;
+}
+
+#submit-button:hover {
+    border: black 1px solid;
 }
 
 /* About text */
@@ -277,12 +299,11 @@ button {
     max-width: 38%;
     margin-right: auto;
     margin-left: 5%;
-    background-color: #559e6785;
     padding: 18px;
-    border-radius: 3%;
-    background-color: #559e6795;
     letter-spacing: 2px;
     height: auto;
+    border-radius: 4%;
+    background-color: #0000008a;
     }
 
 div p {
@@ -336,6 +357,11 @@ footer {
 #background-image3 {
 
     background-position-x: 71%;
+}
+
+#footer-max-width {
+    height: 185px;
+    margin-top: 200px;
 }
 
 
