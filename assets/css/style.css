@@ -59,6 +59,9 @@ body {
     float: left;
     font-size: 250%;
     margin: 3% 3% 3% 3%;
+    background-color: #0d241385;
+    outline: 5px solid #0d241385;
+    border-radius: 34%;
 
 }
 
@@ -73,6 +76,9 @@ body {
     float: right;
     margin: 4.5% 3% 3% 3%;
     list-style-type: none;
+    background-color: #0d241385;
+    outline: 5px solid #0d241385;
+    border-radius: 34%;
 }
 
 /* hero outer section, containing image & logo */
