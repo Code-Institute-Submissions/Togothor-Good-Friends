@@ -231,6 +231,7 @@ th, td {
 
 form {
     width: 90%;
+    height: 382px;
     max-width: 500px;
     margin-left: auto;
     margin-right: auto;
@@ -238,6 +239,7 @@ form {
     padding: 10px 20px;
     background-color: #60534fa3;
     border-radius: 6%;
+    font-family: roboto;
 }
 
 input, textarea {
@@ -319,9 +321,12 @@ footer {
 }
 
 
-@media screen and (max-width: 840px;) {
+@media screen and (max-width: 1050px;) {
 
-    
+#about-text 
+
 }
+    
+
 
     
