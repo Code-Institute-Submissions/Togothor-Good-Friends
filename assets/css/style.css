@@ -11,6 +11,7 @@ header {
     height: 150px;
     width: 100%;
     font-weight: bold;
+    max-width: 1500px;
 }
 
 body {
@@ -32,10 +33,10 @@ body {
 #background-image2 {
     background-image: url('images/pexels-zak-bentley-2906030.jpg');
     background-repeat: no-repeat;
-    background-position-x: center;
+    background-position: bottom;
     opacity: 0.8;
     max-width: 100%;
-    background-position-y: -56rem;
+   
     background-size: cover;
     height: auto;
     
@@ -281,7 +282,7 @@ button {
     border-radius: 3%;
     background-color: #559e6795;
     letter-spacing: 2px;
-    height: 700px;
+    height: auto;
     }
 
 div p {
@@ -321,9 +322,25 @@ footer {
 }
 
 
-@media screen and (max-width: 1050px;) {
+@media screen and (max-width: 1050px) {
 
-#about-text 
+#about-text {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 73%;
+    margin-left: auto;
+    text-align: left;
+
+}
+
+#background-image3 {
+
+    background-position-x: 71%;
+}
+
+
+
+
 
 }
     
