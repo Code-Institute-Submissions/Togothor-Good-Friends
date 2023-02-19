@@ -1,108 +1,90 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Thor Axelsson
 
-Welcome Togothor,
+**Good friends** welcomes the visitor to a simple yet profound experience, in that sense, i's deliberately designed to focus on the main purpose, which is to learn about friendship. Hopefully to give the reader a good look inside & arround. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Second purpose is to connect with other potential friends.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+*gallery?*
 
-## Gitpod Reminders
+The idéa behind is to learn about 'how to', on a personal level identify friendship and practice socialisation. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The aim is to create a personal community arround the idéa of friendship. 
 
-`python3 -m http.server`
+*example: "One feels alone, and got no friends. And no idea on where to begin to find friends, let alone, no idea on how to identify what a friend really is."*
 
-A blue button should appear to click: _Make Public_,
+**Goal of the website.** 
 
-Another blue button should appear to click: _Open Browser_.
+ - Learn about the concept friendship.
+ - Make it easy to feel like you are not alone.
+ 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Who is this for ?
+ 
+Anyone who feel like they are missing friends.
 
-A blue button should appear to click: _Make Public_,
+"*where are my friends?"* 
 
-Another blue button should appear to click: _Open Browser_.
+*&* for people who just want to hang out and love a good friendship.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+*"I just love hanging out with my friends & cannot wait to find more of them"*
 
-To log into the Heroku toolbelt CLI:
+# Features
+Each page features a responsive **navigation bar** with conventional placing of **logo** that says *Good Friends* (top left).
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+In the top right corner there is a button **contact** which takes you to the contact page.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
-------
+**Homepage**
 
-## Release History
+Contains a background image of two young boys having a good time.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+A text that hints about what ideal friends behaviour can look like. 
+The text is contained in a div element that gives a good contrast to the background.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+**Contact** 
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+The contact page features a *contact **form*** that requests users name and email adress. Below is a **textarea** that gives the possibility of leaving a personal message.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+Bottom of the form contains a **send** button with *value="send"*
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+In bottom of the connect page you find the footer that contains clickable social media icons which takes you to linked platforms.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Existing Features
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+ - **Header logo** - Visible on every page, takes the user back to the [**Home page**](https://github.com/Togothor/Good-Friends/blob/main/index.html)
+ - **Connect button** - Visible on every page, takes the user to the [**Connect page**](https://github.com/Togothor/Good-Friends/blob/main/connect.html) where user also will find the *connect form.*
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Features to Implement in future
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+-   GDPR compliant pop-up screen - Allows all new visitors to the website to approve or deny the processing of their personal data. Ensures the business complies with the EU data protection law. - Javascript Needed
+-   Add CAPTCHA to contact form - Allows business to protect the contact form from spam. - Javascript Needed
+-   contact form Send button change from _Send_ to _Processing_ and then when complete changes to _Sent_. - Javascript Needed
+-   FAQ page, table with FAQs and dropdown buttons to view answers - Gives potential clients easy to find answers to their common questions. - Javascript Needed for dropdown functionality. Simple FAQ page could be implemented now.
+-   Friends ' page - Allows new potential friends to discover the website through pictures taken by the community, posted on social media platforms. 
+-   Option to choose the language of the website - as the world is getting more connected, and we are still using multiple languages, it would come handy to choose desired language, we should all be able to communicate easily, and become friends with strangers that do not share the same language. Building a comunnity driven platform that together creates guidelines of what friendship looks like. *Note: interesting to see if we all share the same view of an ideal friendship ?*
+- Gallery 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+ ## Technologies Used
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+This project uses HTML and CSS programming languages.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Credits
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Content
 
-------
+ -   The text for the Home page was created by Thor Axelsson for people all over the world. Inspiration for the creation of the text comes from a [Youtube video](https://www.youtube.com/watch?v=LGinimRIl04) *Named ;  How to Be a Good Friend*
+### Media
 
-## FAQ about the uptime script
+ -   All the photos used in this site were obtained from [Pexels.com](www.pexels.com)
+-Home page [Sudip Paul on Pexels.com](Foto%20av%20sudip%20paul%20fr%C3%A5n%20Pexels:%20https://www.pexels.com/sv-se/foto/karlek-manniskor-sommar-vanner-2738167/)
 
-**Why have you added this script?**
+ - Connect page [Zak Bentley on Pexels.com](https://www.pexels.com/photo/deer-in-the-middle-of-the-forest-2906030/)
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
 
-**How will this affect me?**
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+### Acknowledgements
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+-   I received inspiration for this project from my own experience, from having lots of friends, to feeling alone. I just know how much friends matter for ones well beeing.
+-   My mentor Brian Macharia helped me keeping my spirit up when my first attemt just did not go as planned and i started to run out of time.
