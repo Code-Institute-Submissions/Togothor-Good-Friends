@@ -8,13 +8,9 @@
 }
 
 header {
-    
-    width: 100%;
-    font-weight: bold;
+
     margin-left: auto;
     margin-right: auto;
-    display: flex;
-
     height: fit-content;
     width: 100%;
     font-weight: bold;
@@ -70,7 +66,7 @@ body {
 #logo {
     float: left;
     font-size: 250%;
-    margin: 3% 3% 3% 3%;
+    margin: 14%;
     background-color: #0d241385;
     outline: 5px solid #0d241385;
     border-radius: 34%;
@@ -95,9 +91,10 @@ width: 100%;
 max-width: 500px;
 float: right;
 margin-top: 19px;
-right: -131px;
-position: ;
+
+
 margin-bottom: 10px;
+margin-right: 3%;
 }
 
 #menu li {
@@ -392,12 +389,94 @@ footer {
     margin-top: 200px;
 }
 
+}
+
+/* For screens bigger than*/ 
+
+@media screen and (min-width: 1000px) {
+
+    div p {
+        font-size: 32px;
+    }
+    
+}
+    @media screen and (min-width: 1700px) {
+    
+    #logo {
+        font-size: 330%;
+        width: 325px;
+        margin-left: 8vh;
+    
+    }
+    
+    #menu {
+    
+        font-size: 200%;
+    }
+    
+    #about-text {
+    max-width: 1000px;
+    margin-left: 12%;
+    
+    }
+    
+    div p {
+        font-size: 38px;
+    }
+    
+    }
+
+    @media screen and (min-width: 2800px) {
+  
+        #logo {  
+            font-size: 510%;
+            width: 504px;
+            
+        }
+        
+        header {
+            max-width: none;
+        }
+        #menu {
+            font-size: 301%;
+            margin-right: 8vh;
+            margin-top: 60px;
+        }
+        
+        div p {
+        
+            font-size: 38px;
+        }
+        
+        
+        }
+
+   
 
 
+/* For screens smaller than*/
 
+@media screen and (max-width: 840px) {
+
+#logo {
+    margin: 14%;
+}
+
+nav {
+    right: 0;
+    width: 250px;
+}
 
 }
     
+@media screen and (max-width: 570px) {
 
+header { 
+    flex-direction: column;
+}
 
-    
+#logo {
+    margin: 10%;
+}
+
+}
