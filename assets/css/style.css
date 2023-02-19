@@ -8,19 +8,29 @@
 }
 
 header {
-    height: 150px;
+    
+    width: 100%;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
+    height: fit-content;
     width: 100%;
     font-weight: bold;
     max-width: 1500px;
-    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
 }
 
 body {
     font-family: 'Cabin Sketch', cursive;
     max-width: 1800px;
-    margin-left: auto;
-    margin-right: auto;
-    ma
+    min-height: 100vh;
+    position: relative;
 }
 
 #background-image {
@@ -32,7 +42,7 @@ body {
     
 }
 #background-image2 {
-    background-image: url('images/pexels-zak-bentley-2906030.jpg');
+    background-image: url('images/deer-intheforest.jpg');
     background-repeat: no-repeat;
     background-position: bottom;
     opacity: 0.8;
@@ -44,7 +54,7 @@ body {
 }
 
 #background-image3 {
-    background-image: url('images/pexels-sudip-paul-2738167.jpg');
+    background-image: url('images/boys-having-fun.jpg');
     background-repeat: no-repeat;
     background-position-x: center;
     max-width: 100%;
@@ -65,7 +75,7 @@ body {
     outline: 5px solid #0d241385;
     border-radius: 34%;
     color: turquoise;
-
+    width: 245px;
 }
 
 /* navigation links in menu */
@@ -76,8 +86,18 @@ body {
 
 #menu {
     font-size: 130%;
-    
 
+}
+
+nav {
+height: 60px;
+width: 100%;
+max-width: 500px;
+float: right;
+margin-top: 19px;
+right: -131px;
+position: ;
+margin-bottom: 10px;
 }
 
 #menu li {
@@ -247,7 +267,7 @@ th, td {
     max-width: 500px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
+    margin-top: 30px;
     padding: 10px 20px;
     
     border-radius: 6%;
@@ -322,8 +342,16 @@ p {
 /* Footer */
 
 footer {
-    height: 185px;
-    margin-top: 291px;
+
+    height: 120px;
+}
+
+#footer-connect {
+   
+    height: 120px;
+    margin-top: 120px;
+    background-color: rgba(0,0,0,0.8);
+  
 }
 
 .social-networks {
@@ -360,7 +388,7 @@ footer {
 }
 
 #footer-max-width {
-    height: 185px;
+    
     margin-top: 200px;
 }
 
