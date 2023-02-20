@@ -4,7 +4,6 @@
 
 Second purpose is to connect with other potential friends.
 
-*gallery?*
 
 The idéa behind is to learn about 'how to', on a personal level identify friendship and practice socialisation. 
 
